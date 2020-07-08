@@ -1,0 +1,60 @@
+<!---Classe pode repetir ID não pode ser repetida-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e ids</title>
+    <!--elementos que o usuário não ver mas executam 
+        coisas na página 
+        inline style
+    -->    
+    <style type="text/css">
+        #topo{
+            background:#d75c5c;
+        }
+        #conteudo{
+            background: red;
+        }
+        #rodape{
+            background: green;
+
+        }
+        #assinatura{
+            background: hotpink;
+        }
+        .produto{
+            background: grey;
+            margin: 10px;
+        }
+        .azul{
+            background: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="topo"><!--divisão-->
+        <img src="imagens/amazon.png" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os <samp class="azul">direitos</samp> reservados
+    </div>
+    <samp id="assinatura">Lucas</samp> <samp>Bispo</samp><!--Um ao lado do outro-->
+</body>
+</html>
