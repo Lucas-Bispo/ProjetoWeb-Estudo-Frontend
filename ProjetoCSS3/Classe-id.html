@@ -1,0 +1,66 @@
+<!---Classe pode repetir ID não pode ser repetida-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes e ids</title>
+    <!--elementos que o usuário não ver mas executam 
+        coisas na página 
+        inline style
+    -->
+    <style>
+        p{
+            color: red;
+        }
+        h1{
+            color: aqua;
+        }
+        .azul{
+            color: blue;
+
+        }
+        #principal{
+            background: gray;
+
+        }
+    </style>
+
+</head>
+<body id="principal">
+    <div>
+        <div id="cabeçalho">
+            <img src="imagens/logo.png" alt="">
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Contatos</li>
+            </ul>
+        </div>
+        <div id="conteudo-principal">
+            <div class="coluna">
+                Coluna 1
+            </div>
+            <div class="coluna">
+                Coluna 2
+            </div>
+            <div class="coluna">
+                Coluna 3
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <h1>Estilo CSS (cascading style sheets)</h1>
+    <p class="azul"> 
+        Texto qualquer...
+    </p>
+    <p>
+        Texto qualquer 2
+    </p>
+</body>
+</html>
