@@ -1,0 +1,38 @@
+#menu{
+    color: grey;
+    font-size: 30px;
+}
+#sobre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: grey;
+}
+.sobre{
+    background:white;
+}
+#direitos{
+    font: bold;
+    font-size: medium;
+    background-position: right;
+    color: black;
+}
+a{
+    color: grey;
+}
+#bio{
+    background: white;
+}
+#publicidade{
+    background: white;
+}
+.fotos{
+    margin: 10px;
+    border: 10px solid rgb(204, 197, 197);
+}
+h2{
+    color: grey;
+}
+#publicidade p{
+    font-family: Arial, Helvetica, sans-serif;
+}
