@@ -1,0 +1,23 @@
+.principal{
+    border: 1px solid red;
+    background: green;
+}
+.conteudo{
+    background: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: right;
+}
+/*.conteudo1{
+    background: red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: right; /*flutua na página, caso flutei varios elementos eles buscam um espaço a lugar que foi escolhido
+}*/
+.clear{
+    clear: right; /* quebrar a flutuação*/
+
+}
