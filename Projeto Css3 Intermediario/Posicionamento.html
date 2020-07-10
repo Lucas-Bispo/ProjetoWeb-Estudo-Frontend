@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamento (estatico e relativo)</title>
+    <style type="text/css">
+        body{
+            background: #007fc7;
+        }
+        #conteiner{
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+        }
+        h1{
+            /*por padrão o elementos são estáticos.*/
+        }
+        p{
+            width: 300%;
+        }
+        .relative{
+            border: 1px solid red;
+            position: relative;
+            /*top, right, bottom = inferio  e left*/
+            top: 50px;
+            left: 74px;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <h1>Posicionamento</h1>
+        <p>
+            P1 texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+        </p>
+        <p class="relative">
+            P2 texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+        </p>
+        <p>
+            P3 texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+            texto qualquer texto qualquer
+        </p>
+    </div>
+    
+</body>
+</html>
