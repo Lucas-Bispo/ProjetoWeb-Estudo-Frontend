@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Super posição</title>
+    <style type="text/css">
+    .conteudo{
+        border: 1px solid red;
+        background: orange;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 2;
+    }
+    .conteudo2{
+    border: 1px solid red;
+        background: orange;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 2;
+    }
+    .conteudo3{
+        border: 1px solid red;
+        background: orange;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        z-index: 2; /*array que define a posição de exibição que a caixa tera
+        se tiver o mesmo número de posição a ordem segue o padrão normal*/
+    }
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+			Conteudo 1
+		</div>
+
+		<div class="conteudo2">
+			Conteudo 2
+		</div>
+
+		<div class="conteudo3">
+			Conteudo 3
+		</div>
+</body>
+</html>
