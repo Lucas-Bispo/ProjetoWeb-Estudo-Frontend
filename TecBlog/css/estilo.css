@@ -19,6 +19,11 @@ body{
 #area-logo, #area-menu{
     padding: 10px;
 }
+#area-principal{
+    background: white;
+    width: 920px;
+    margin: 0 auto;/*auto faz com que fique no centro em ralação ao corpo */
+}
 /*
 ****Fomatação de menu ****
 */
