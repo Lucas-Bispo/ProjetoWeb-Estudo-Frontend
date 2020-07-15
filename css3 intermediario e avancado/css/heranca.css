@@ -1,0 +1,9 @@
+/*herança todos os elementos que estão dentro do body tem a cor red*/
+body{
+    color: red;
+}
+/*especificidade com seletores iguais o ultimo é aplicado
+se usar o !important define a importância a ser aplicada
+* seletor geral
+id é mais especifico que classe.
+*/
