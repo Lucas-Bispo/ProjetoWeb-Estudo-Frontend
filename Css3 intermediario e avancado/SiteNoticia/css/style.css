@@ -80,22 +80,26 @@ body.fotos #navegacao a#fotos {
     background: red;
 }
 
-body #primario{
+#primario{
     width: 270px;
     float: left;
+    margin:  0 0 20px 195px;
     background: blue;
 }
 
-body #secundario{
+#secundario{
     width: 270px;
     float: left;
+    margin: 0 0 20px 15px;
     background: coral;
+    
 }
 
-body #terciario{
+ #lateral{
     width: 180px;
     float: left;
     background: darkgreen;
+    margin: 0 0 20px -750px;
 }
 
 /*rodape*/
