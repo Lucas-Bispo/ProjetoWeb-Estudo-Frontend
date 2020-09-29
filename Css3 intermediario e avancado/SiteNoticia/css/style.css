@@ -56,6 +56,57 @@ ul{
 #topo ul .primeiro a{
     background: none;
 }
+
 #topo ul a:hover{
     color: #69001d;
+}
+
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos {
+    
+    color: #fff;
+    background:  #de003e;
+    cursor: text;
+}
+/*COnfiguração de layout de três colunas*/
+#conteudo{
+    margin-top: 60px;
+    background: red;
+}
+
+body #primario{
+    width: 270px;
+    float: left;
+    background: blue;
+}
+
+body #secundario{
+    width: 270px;
+    float: left;
+    background: coral;
+}
+
+body #terciario{
+    width: 180px;
+    float: left;
+    background: darkgreen;
+}
+
+/*rodape*/
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
